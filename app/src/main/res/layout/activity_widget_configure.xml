@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="220dp"
+              android:layout_height="wrap_content"
+              android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="5dp"
+            android:gravity="right|center_horizontal"
+            android:text="Seconds:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>            />
+
+        <EditText
+            android:id="@+id/edittext_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:maxLength="2"
+            android:inputType="number"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:gravity="right|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="0dp"
+            android:gravity="right|center_horizontal"
+            android:text="Minutes:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>            />
+
+        <EditText
+            android:id="@+id/edittext_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:maxLength="2"
+            android:inputType="number"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="8dp"
+            android:gravity="right|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginBottom="16dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="94dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="0dp"-->
+            <!--android:text="Hours:"-->
+            <!--android:gravity="right|center_horizontal"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"/>            />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/edittext_hours"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:maxLength="1"-->
+            <!--android:inputType="number"-->
+            <!--android:layout_marginLeft="24dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:gravity="right|center_horizontal"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"/>-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="0dp"
+            android:gravity="right|center_horizontal"
+            android:text="Screen On:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>            />
+
+        <CheckBox
+            android:id="@+id/checkbox_display_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="8dp"
+            android:gravity="right|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Done" />
+
+</LinearLayout>

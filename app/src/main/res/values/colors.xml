@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hourglassColor">#c5b637</color>
+    <color name="brightYellow">#ffff00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="dark_gray">#666</color>
+
+    <color name="colorPrimary">@color/dark_gray</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">@color/hourglassColor</color>
+</resources>
